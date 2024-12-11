@@ -12,7 +12,7 @@ Lita created a VPC, the public and private subnet, and the route table for every
 ### LITA_PROJECT VPC 
 ![Vpc image](/VPCLita.png)
 ### LITA PROJECT PUBLIC subnet
-![subnet image](/PublicSubnet_Lita.png)
+![subnet image](/PublicSUbnet_Lita.png)
 ### LITA PROJECT PRIVATE subnet
 ![subnet image](/PrivateSubnet_Lita.png)
 ### LITA INTERNET gateway
