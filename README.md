@@ -7,7 +7,7 @@ log in on Aws as an IAm user Changed my region to Ireland as instructed on the p
 ## VPC Creation 
 
 I tried creating a VPC but got the error code that number of vpc creation has been exceeded.  
-![Vpcerror image](/Vpcerror.png)
+![Vpc image](/Vpcerror.png)
 Lita created a VPC, the public and private subnet, and the route table for everyone to use which means i no longer need to create a new VPC. 
  
 
