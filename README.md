@@ -5,10 +5,7 @@ Web Infrastructure for Smartshop
 log in on Aws as an IAm user Changed my region to Ireland as instructed on the project document 
 
 ## VPC Creation 
-
-I tried creating a VPC but got the error code that number of vpc creation has been exceeded, below is an image of the error code.
-![Vpc image](/Vpcerror.png)
-Lita created a VPC, the public and private subnet, and the route table for everyone to use which means i no longer need to create a new VPC in ireland region sitting in one availability zone, below is the image of the VPC, public and private subnets,internet gateway, routetable.
+A VPC was created named Lita projects which includes public and private subnet, route table, and internet gateway in the ireland region sitting in one availability zone. Below is the image of the VPC, public and private subnets,internet gateway, routetable.
 ### LITA_PROJECT VPC 
 ![Vpc image](/VPCLita.png)
 ### LITA PROJECT PUBLIC subnet
@@ -23,10 +20,10 @@ Lita created a VPC, the public and private subnet, and the route table for every
 ## Security group Creation 
 Step 1: Named my security group Oyindamolaadewole_Lita  
 Step 2: description is to allow SSH & HTTP traffic which means to enable communictaion between the VPC and the internet  
-Step 3:  i selected the LIta Ptoject VPC  
+Step 3: i selected the LIta Ptoject VPC  
 Step 4: Created an inbound rule to allow ssh & http anywhere-IPV4 
 Step 5: Created an outbound rule to allow all traffic  
-Step 6:  I clicked on create, and then my security group was created 
+Step 6: I clicked on create, and then my security group was created 
 Bewlow is the image of the security group, inbound rule and outbound rule.
 
 ### SECURITY group
@@ -59,7 +56,7 @@ Instance public IP 34.253.236.134, below is an image of my EC2
 ![Ec2 image](/EC2.png)
 ![Ec2 image](/EC2complete.png)
 
-## Apache Attachment 
+## Apache Deployment
 Step 1: Opened my instance 
 Step 2: Clicked on connect 
 Step 3: COnnected my instance 
@@ -68,7 +65,7 @@ Step 5: Copied my keypair name and description which had already been combined b
 Step 6: went to my local machine, clicked on the folder i had saved my downloaded keypair 
 Step 7: right clicked an empty space on an empty space and clicked on git bash 
 Step 8: run my keypair code on the git bash terminal to ensure my keypair is not publicly visible 
-Step 9:  i run the apache code to attache apache to my instace 
+Step 9: i run the apache code to deploy apache to my instace 
 sudo yum update -y  
 sudo yum install httpd -y  
 sudo systemctl start httpd 
@@ -77,7 +74,7 @@ sudo systemctl enable httpd
 ### GIT bash
 ![kaypair image](/Keypaircommand.png)
 
-Step 10: After running the code, i was able to attach my apache sucessfully
+Step 10: After running the code, i was able to deploy my apache sucessfully
 
 ### Apache Test page
 ![Apache Image](/Apache.png)
