@@ -35,6 +35,30 @@ Bewlow is the image of the security group, inbound rule and outbound rule.
 ![inbound rule image](/InboundRule.png)
 ### OUTBOUND rule
 ![outbound rule image](/Outboundrule.png)
+ 
+## EC2 Instance launch 
+
+Step 1: I created a key pair first then downloaded the .pem file  
+Step 2: Search for Instances 
+Step 3: I clicked on Launch Instance 
+Step 4: Named my instance oyindamolaadewole_LitaEC2 
+Step 5: clicked on the Amazon linux 2 AMI for the machine Image and the OS  
+Step 6: Cliked on  the t2.micro from the instance family which comes with 1vcpu and 1Gib memory 
+Step 7: included the keypair i created 
+Step 8: scrolled to the network settings 
+Step 9: attached the VPC created by lita 
+Step 10: Attached a public subnet to the instance 
+Step 11: I enabled public IPV4 
+Step 12: attached the security group i created 
+Step 13: I left the storage ta 8G as instructed 
+Step 14: Confirmed my configuration 
+Step 15: Clicked on Launch 
+
+Instance public IP 34.253.236.134, below is an image of my EC2
+### EC2 Instance
+![Ec2 image](/EC2.png)
+![Ec2 image](/EC2complete.png)
+
 
 
 
