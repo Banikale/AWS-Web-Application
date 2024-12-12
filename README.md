@@ -81,7 +81,41 @@ Step 10: After running the code, i was able to attach my apache sucessfully
 
 ### Apache Test page
 [Apache Image](/Apache.png)
+
+## GIT HUB ACCOUNT SET-UP 
+Step 1: I clicked on GitHub which took me to the web github page 
+Step 2: I clicked on sign-up and followed the instruction to creat ACCOUNT 
+Step 3: I created a repository and enable README file and set it to public to enable access to my repo by others 
+Step 4: named the file AWS-Web-Application 
+Step 6: I downloaded git suitable for my OS on my laptop 
+Step 7: Installed the git 
+Step 8: i opened the Command line terminal on my laptop 
+step 9: run the git --version code to be sure i have successfully installed git 
+
   
+## Cloning repository 
+Step 1: Copied my repo link 
+Step 2: paste it on my cli 
+Step 3: run the command "git clone https://github.com/Banikale/AWS-Web-Application.git 
+step 4: successfully cloned my reposioty on my local machine 
+
+
+## Documentation 
+Step 1: downloaded notepad ++ to access my README file 
+Step 2: documented of my project process 
+step 3: save the document 
+step 4: opened my cli 
+Step 5: run the command "git status" to check the changes 
+step 6: run the command "git add ." to add the changes 
+step 7: run the command "git commit -m" to commit the changes 
+step 8: run the command "git push" to push it to my online git hub" 
+
+ ### GIT CLI 
+![Git Image](/GitCLI1.png] 
+
+![Git Image](/GitCli2.png)
+
+![Git Imagge](/GitCli3.png)
 
 
 
