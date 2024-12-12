@@ -59,6 +59,29 @@ Instance public IP 34.253.236.134, below is an image of my EC2
 ![Ec2 image](/EC2.png)
 ![Ec2 image](/EC2complete.png)
 
+## Apache Attachment 
+Step 1: Opened my instance 
+Step 2: Clicked on connect 
+Step 3: COnnected my instance 
+Step 4: Clicked on the SSH Client
+Step 5: Copied my keypair name and description which had already been combined by aws used as an example 
+Step 6: went to my local machine, clicked on the folder i had saved my downloaded keypair 
+Step 7: right clicked an empty space on an empty space and clicked on git bash 
+Step 8: run my keypair code on the git bash terminal to ensure my keypair is not publicly visible 
+Step 9:  i run the apache code to attache apache to my instace 
+sudo yum update -y  
+sudo yum install httpd -y  
+sudo systemctl start httpd 
+sudo systemctl enable httpd 
+
+### GIT bash
+![kaypair image](/Kaypaircommand.png)
+
+Step 10: After running the code, i was able to attach my apache sucessfully
+
+### Apache Test page
+[Apache Image](/Apache.png)
+  
 
 
 
