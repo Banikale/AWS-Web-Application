@@ -75,12 +75,12 @@ sudo systemctl start httpd
 sudo systemctl enable httpd 
 
 ### GIT bash
-![kaypair image](/Kaypaircommand.png)
+![kaypair image](/Keypaircommand.png)
 
 Step 10: After running the code, i was able to attach my apache sucessfully
 
 ### Apache Test page
-[Apache Image](/Apache.png)
+![Apache Image](/Apache.png)
 
 ## GIT HUB ACCOUNT SET-UP 
 Step 1: I clicked on GitHub which took me to the web github page 
@@ -111,7 +111,7 @@ step 7: run the command "git commit -m" to commit the changes
 step 8: run the command "git push" to push it to my online git hub" 
 
  ### GIT CLI 
-![Git Image](/GitCLI1.png] 
+![Git Image](/GitCLI1.png) 
 
 ![Git Image](/GitCli2.png)
 
